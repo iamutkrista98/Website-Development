@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to HTTP and Security</title>
+</head>
+<body>
+    1. What is the Hypertext Transfer Protocol (HTTP)?
+    <p>Hypertext Transfer Protocol is an application layer protocol which is used to transmit hypermedia documents such as HTML(Hyper Text Markup Language). It was designed with the purpose of communication between web browsers and web servers along with various other purposes. It tends to follow a classical client-server model.
+    whereby a client sends in a request and waits for a response from the server. 
+    </p>
+    2. Why is HTTP called a stateless protocol?
+    <p>
+        HTTP is a stateless protocol because the server does not keep any data(state) between two requests.
+    </p>
+    3. Describe the three phases of establishing a session using client-server protocols such as HTTP?
+    <p>
+        The three phases of establishing a session using client-server such as HTTP are as follows:
+        <ul>
+            <li>The client establishes a TCP connection(or the appropriate connection if the transport layer is not TCP)</li>
+            <li>The client sends in request and waits for a response/answer</li>
+            <li>The server processes the request, sending back the answer along with a status code and appropriate data</li>
+        </ul>
+    </p>
+    4. Describe the parameters on a get and post request?
+    <p>
+        <b>GET METHOD</b>
+        <p>
+            The get method is used to request data from a specified resource and a get request retrieves data from a web server by specifying parameters in the URL portion of the request which happens to be the main method used for static document retrieval.
+            An example of HTTP get request is given below: 
+            <b>GET</b> /home.html HTTP/1.1 
+            <b>User-Agent:</b> Mozzilla/4.0 (compatible; MSIE5.01; Windows NT) 
+            <b></b>
+        </p>
+    </p>
+</body>
+</html>
